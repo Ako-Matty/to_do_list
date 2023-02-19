@@ -1,38 +1,102 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(red, yellow);
+  height: 1200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Title {
+
+text-decoration:underline;
+font-family: Cambria, Cochin, Georgia, 'Times New Roman';
+
+
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#box {
+
+  border-radius: 90px;
+  outline: none;
+  box-sizing: border-box;
+  border-color: blue;
+  transition: 3s;
+  height: 50px;
+  width: 10%;
+  margin-top: 5%;
+  margin-right: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 150%;
+  padding: 8px;
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+#Plus {
+
+  background-color: greenyellow;
+  box-shadow: 0.25px 0.25px 20px 0.25px rgb(48, 31, 42);
+  height: 50px;
+  border-radius: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+
+.texts {
+
+margin: 10px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#colourbox {
+
+background-color: wheat;
+margin: 50px;
+border-radius: 50px;
+box-shadow: 0.25px 0.25px 20px 0.25px rgb(48, 31, 42);
+padding: 1px;
+}
+
+#checkedlist {
+
+  text-decoration: none;
+  margin-right: 5%;
+  padding: 1%;
+  font-size: larger;
+
+
+}
+
+
+.Buttons {
+
+/* display: flex; */
+
+
+}
+
+
+
+#ticked {
+
+background-color: pink;
+border-radius: 50px;
+box-shadow: 0.25px 0.25px 20px 0.25px rgb(48, 31, 42);
+
+}
+
+#Minus {
+
+background-color: green;
+border-radius: 50%;
+
+
 }
